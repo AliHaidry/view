@@ -1,8 +1,7 @@
-.headone {
-    color: black;
-    text-align: center;
-}
 
+h1 {
+    font-family: 'Quicksand', sans-serif;
+}
 
 .form-signup {
     background-color: white;
@@ -14,17 +13,23 @@
 
 .con-signup {
     padding: 30px;
+    display: none;
 }
+
+.con-signin {
+    padding: 30px;
+}
+
 
 .button-l {
     width: 100%;
     text-align: left;
-    background-color:lightgrey;
+    background-color:whitesmoke;
     border-bottom: solid lightslategray 1px;
 }
 
 .button-s {
     width: 100%;
     text-align: left;
-    background-color: lightgrey;
+    background-color: whitesmoke;
 }
