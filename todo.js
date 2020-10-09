@@ -7,3 +7,16 @@ $(document).ready(function(){
     }));
 });
 
+/* To do list functionality */
+
+
+/*
+
+$(document).ready(function(){
+  ($(".input-group-append").on("click",function(){
+    $("").append("");
+  }));
+});
+
+*/
+
