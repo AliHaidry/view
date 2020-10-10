@@ -1,0 +1,28 @@
+.container{
+    text-align: center;
+}
+
+.con-main{
+    background-color: #eee; 
+    text-align: center;
+    width: 40%;
+    margin: auto;   
+}
+
+.input-group {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.button-rm {
+    text-align: center;
+    margin-left: 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+}
+
