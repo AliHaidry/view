@@ -2,7 +2,7 @@
 // log-out functionality 
 
 $(document).ready(function(){
-    ($(".button-o").on("click",function(){ 
+    ($("div.button-o").on("click",function(){ 
       $(".con-signout").slideToggle();
     }));
 });
@@ -19,4 +19,20 @@ $(document).ready(function(){
 });
 
 */
+
+/*
+$(function(){
+  $("h1").css("color","red")
+});
+*/
+
+/*
+$(function(){
+  $(".button-o").on("click",function(){
+    $(".btn").css("color","red");
+  });
+});
+*/
+
+
 
