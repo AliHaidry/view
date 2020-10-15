@@ -3,24 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Todo List</title>
+    <title>Add Tasks</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- My Own CSS-->
+    <link rel="stylesheet" type="text/css" href="task.css" />
   </head>
-
-  <!-- My Own CSS-->
-  <link rel="stylesheet" type="text/css" href="todo.css" />
-  <!-- Bootstrap CSS -->
-  <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-    crossorigin="anonymous"
-  />
-  <!-- Google Fonts-->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap"
-    rel="stylesheet"
-  />
-
   <body class="text-center">
     <!-- To do Page -->
     <div class="jumbotron">
@@ -38,11 +38,12 @@
       </form>
     </div>
 
-    <!-- Adding to do list container -->
+    <!-- Main Task list Container-->
+    <div class="main-con" id="main">
+      <!---->
 
-    <div class="con-main">
       <div class="input-group">
-        <div class="input-group-prepend">
+        <div id="input-group-prepend-one">
           <div class="input-group-text">
             <input
               type="checkbox"
@@ -51,9 +52,9 @@
           </div>
         </div>
         <input
-          type="text"
+          type="text-1"
           class="form-control"
-          placeholder="My unfinished task"
+          placeholder="My finished task"
           aria-label=""
           aria-describedby="basic-addon1"
         />
@@ -82,11 +83,11 @@
         </div>
       </div>
 
-      <div class="input-group">
+      <div id="input-group-one">
         <input
-          type="text"
+          type="text-2"
           class="form-control"
-          placeholder="Someone's else unfinished"
+          placeholder="Someone else's unfinished"
           aria-label=""
           aria-describedby="basic-addon1"
         />
@@ -117,22 +118,30 @@
         </div>
       </div>
 
-      <div class="input-group">
-        <input
-          type="text"
-          class="form-control"
-          placeholder="Enter new task here"
-        />
-        <div class="input-group-append">
-          <button class="btn btn-sm btn-outline-secondary" type="button">
-            Add
-          </button>
+      <!-- -->
+
+      <form role="form" id="main_input_box">
+        <div class="input-group">
+          <input
+            type="text"
+            class="form-control"
+            id="custom_textbox"
+            name="Item"
+            placeholder="Add your new task here"
+          />
+          <div class="input-group-append">
+            <input
+              type="submit"
+              value="Add"
+              class="btn btn-primary add_button"
+            />
+          </div>
+          <!-- <input type="submit" value="Add" class="btn btn-primary add_button"/> -->
         </div>
-      </div>
-
-      <!-- Adding to do list container END -->
-
-      <!--remove bottom button -->
+      </form>
+      <form>
+        <ol class="list-group list_of_items"></ol>
+      </form>
 
       <div class="button-rm">
         <button type="button" class="btn btn-sm btn-outline-secondary">
@@ -141,7 +150,7 @@
       </div>
     </div>
 
-    <!-- remove bottom button END -->
+    <!-- Main Task list Container End-->
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.min.js"
@@ -160,6 +169,6 @@
     ></script>
 
     <!-- My Own JavaScripts -->
-    <script src="todo.js"></script>
+    <script src="task.js"></script>
   </body>
 </html>
