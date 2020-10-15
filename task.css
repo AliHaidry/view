@@ -1,0 +1,93 @@
+h1 {
+  font-family: "Quicksand", sans-serif;
+}
+
+.form-signup {
+  background-color: white;
+  margin: auto;
+  width: 25%;
+  padding: 0px;
+}
+
+.con-signout {
+  padding: 20px;
+  display: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.button-o {
+  width: 100%;
+  text-align: left;
+  background-color: whitesmoke;
+}
+
+/*---------------------------*/
+
+.main-con {
+  background-color: #eee;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+/*
+.add_button {
+  margin: -55px 0px 10px 450px;
+  position: relative;
+  max-width: 100%;
+}
+*/
+
+.checkbox-one {
+  padding-right: 100%;
+}
+
+.completed_item {
+  text-decoration: line-through;
+}
+.completed_task {
+  text-decoration: line-through;
+}
+
+.text_holder {
+  display: block;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+#main {
+  margin-top: 50px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  width: 40%;
+  text-align: center;
+}
+
+#main_input_box {
+  width: 100%;
+}
+
+.button-rm {
+  display: inline;
+}
+
+.input-group {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/*-----------------Dom-------------------*/
+
+#input-group-prepend-one .input-group-text {
+  padding-top: 17px;
+}
+
+#input-group-one {
+  margin: auto;
+  width: 90%;
+}
