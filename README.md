@@ -1,5 +1,5 @@
 ### ViewLab
-This is an progression lab ! Starting off from View that is related to MVC architecture.
+This is an progression lab ! Starting off from View that is related to MVC (mode-view-controller) architecture.
 
 ### Functionalities Implemented
 
